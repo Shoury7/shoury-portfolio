@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "Launching Shoury.dev...";
+  const fullText = "Launching <Shoury.dev/>...";
 
   useEffect(() => {
     let index = 0;
